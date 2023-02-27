@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">小米刷新率工具</string>
+    <string-array name="refresh_rate_values">
+        <item>未设置</item>
+        <item>144</item>
+        <item>120</item>
+        <item>90</item>
+        <item>60</item>
+        <item>30</item>
+    </string-array>
+</resources>

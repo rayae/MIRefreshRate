@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryColor"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/tvRefreshRate"
+        android:gravity="center_vertical"
+        android:text="未安装"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvRefreshRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical"
+        android:text="144HZ"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/tvPkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:gravity="center_vertical"
+        android:text="com.a.b.c.d.e"
+        android:textStyle="italic" />
+</RelativeLayout>

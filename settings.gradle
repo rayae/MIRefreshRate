@@ -1,0 +1,3 @@
+include ':shelldaemon'
+include ':app'
+rootProject.name = "MI Refresh Rate"
